@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B&amp;M Cleaning Solutions | Home &amp; Airbnb Cleaning in Maidenhead, Berkshire</title>
+<meta name="description" content="Reliable, thorough and friendly home cleaning, deep cleaning, after-builders cleaning and Airbnb turnovers across Maidenhead, Windsor, Slough and the surrounding area.">
+<link rel="icon" href="images/logo.png">
+<meta name="theme-color" content="#013073">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* Added styles for the new reviews section to match the existing design */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin-top: 48px;
+  }
+  .review-card {
+    background: #fff;
+    border: 1px solid #eef0f5;
+    border-radius: 16px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 10px 30px rgba(1, 48, 115, 0.07);
+  }
+  .review-card .stars {
+    display: flex;
+    gap: 4px;
+    color: #f5a623;
+  }
+  .review-card .stars .ic {
+    width: 22px;
+    height: 22px;
+  }
+  .review-card .review-cat {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0599aa;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin: 0;
+  }
+  .review-card .review-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.65;
+    color: #2c2c2c;
+    font-style: italic;
+  }
+  .review-card .review-author {
+    margin-top: auto;
+    font-weight: 700;
+    color: #013073;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1C13.2 7.2 16.8 10.8 23 12 16.8 13.2 13.2 16.8 12 23 10.8 16.8 7.2 13.2 1 12 7.2 10.8 10.8 7.2 12 1Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6.5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></symbol>
+  <!-- Added Star Symbol for Reviews -->
+  <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="header-inner container">
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="images/logo.png" alt="B&amp;M Cleaning Solutions logo" width="84" height="84">
+    </a>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <div class="nav-links">
+        <a style="--i:0" href="index.html" aria-current="page">Home<svg class="ic nav-arrow"><use href="#i-arrow"/></svg></a>
+        <a style="--i:1" href="services.html">Services<svg class="ic nav-arrow"><use href="#i-arrow"/></svg></a>
+        <a style="--i:2" href="about.html">About<svg class="ic nav-arrow"><use href="#i-arrow"/></svg></a>
+        <a style="--i:3" href="contact.html">Contact<svg class="ic nav-arrow"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="nav-foot">
+        <a class="nav-phone" href="tel:+447563630183"><svg class="ic"><use href="#i-phone"/></svg>07563630183</a>
+        <div class="nav-meta">
+          <a href="mailto:hello@bm-cleaning.co.uk">hello@bm-cleaning.co.uk</a>
+          <span>Maidenhead · Berkshire</span>
+        </div>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+      <svg class="ic ic-menu"><use href="#i-menu"/></svg>
+      <svg class="ic ic-close"><use href="#i-close"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <svg class="deco deco-a" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1C13.2 7.2 16.8 10.8 23 12 16.8 13.2 13.2 16.8 12 23 10.8 16.8 7.2 13.2 1 12 7.2 10.8 10.8 7.2 12 1Z"/></svg>
+    <svg class="deco deco-b" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1C13.2 7.2 16.8 10.8 23 12 16.8 13.2 13.2 16.8 12 23 10.8 16.8 7.2 13.2 1 12 7.2 10.8 10.8 7.2 12 1Z"/></svg>
+
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><svg class="ic"><use href="#i-sparkle"/></svg>B&amp;M Cleaning Solutions · Maidenhead</p>
+        <h1>Where clean meets
+          <em>perfection.<svg class="squiggle" viewBox="0 0 220 16" preserveAspectRatio="none" aria-hidden="true"><path d="M4 11 C50 4 110 3 140 8 C160 11 190 10 216 6" pathLength="100"/></svg></em>
+        </h1>
+        <p class="lede">Reliable, thorough and friendly cleaning for homes, Airbnb properties and businesses across Maidenhead and the surrounding area — giving you more time for the things that matter.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="contact.html">Get a free quote<svg class="ic"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost btn-lg" href="services.html">Explore services</a>
+        </div>
+      </div>
+
+      <div class="hero-window">
+        <div class="window-frame" id="wipeWindow">
+          <img class="main" draggable="false" src="images/cleanings/1.jpg" alt="A B&amp;M cleaner wiping down a kitchen worktop" data-fb="Home cleaning">
+          <svg class="spark" style="--d:.1s;width:22px;left:11%;top:16%" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1C13.2 7.2 16.8 10.8 23 12 16.8 13.2 13.2 16.8 12 23 10.8 16.8 7.2 13.2 1 12 7.2 10.8 10.8 7.2 12 1Z"/></svg>
+          <svg class="spark" style="--d:.28s;width:15px;left:46%;top:62%" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1C13.2 7.2 16.8 10.8 23 12 16.8 13.2 13.2 16.8 12 23 10.8 16.8 7.2 13.2 1 12 7.2 10.8 10.8 7.2 12 1Z"/></svg>
+          <svg class="spark" style="--d:.46s;width:19px;left:78%;top:28%" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1C13.2 7.2 16.8 10.8 23 12 16.8 13.2 13.2 16.8 12 23 10.8 16.8 7.2 13.2 1 12 7.2 10.8 10.8 7.2 12 1Z"/></svg>
+          <svg class="spark" style="--d:.6s;width:12px;left:64%;top:9%" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1C13.2 7.2 16.8 10.8 23 12 16.8 13.2 13.2 16.8 12 23 10.8 16.8 7.2 13.2 1 12 7.2 10.8 10.8 7.2 12 1Z"/></svg>
+
+          <div class="fog" id="fogLayer">
+            <img draggable="false" src="images/cleanings/1.jpg" alt="" aria-hidden="true">
+            <span class="fog-note">clean me<svg viewBox="0 0 60 24" aria-hidden="true"><path d="M2 16 C18 6 38 6 55 11 M47 5l9 6-10 4"/></svg></span>
+          </div>
+
+          <div class="squeegee" id="squeegee">
+            <span class="sq-gleam"></span>
+            <span class="sq-blade"></span>
+            <span class="sq-grip"></span>
+          </div>
+
+          <span class="window-chip window-caption"><svg class="ic"><use href="#i-sparkle"/></svg>Freshly cleaned</span>
+          <button class="window-chip wipe-again" type="button" id="wipeAgain"><svg class="ic"><use href="#i-sparkle"/></svg>Wipe again</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <div class="ticker-group">
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Home Cleaning</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Deep Cleaning</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>End of Tenancy</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>After-Builders</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Airbnb Turnovers</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Move-In &amp; Move-Out</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Maidenhead &amp; Beyond</span>
+      </div>
+      <div class="ticker-group">
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Home Cleaning</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Deep Cleaning</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>End of Tenancy</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>After-Builders</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Airbnb Turnovers</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Move-In &amp; Move-Out</span>
+        <span class="tick"><svg class="ic"><use href="#i-sparkle"/></svg>Maidenhead &amp; Beyond</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head split reveal">
+        <div>
+          <p class="eyebrow"><svg class="ic"><use href="#i-sparkle"/></svg>What we do</p>
+          <h2>Every clean, <em>tailored</em> to you.</h2>
+        </div>
+        <a class="head-link" href="services.html">See all services<svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+
+      <ol class="index-list">
+        <li>
+          <a class="index-row reveal" href="services.html#home-cleaning">
+            <span class="index-num">01</span>
+            <span class="index-body">
+              <span class="index-title">Home Cleaning</span>
+              <span class="index-desc">Regular upkeep, kitchens, bathrooms, bedrooms and living areas — a routine shaped around your home.</span>
+            </span>
+            <span class="index-media"><img src="images/cleanings/2.jpg" alt="Cleaning a kitchen worktop" data-fb="Home cleaning" loading="lazy"></span>
+            <span class="index-arrow"><svg class="ic"><use href="#i-arrow"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="index-row reveal" style="--d:.06s" href="services.html#after-builders">
+            <span class="index-num">02</span>
+            <span class="index-body">
+              <span class="index-title">After-Builders Cleaning</span>
+              <span class="index-desc">Construction dust and residue removed with care, so your newly renovated space shines again.</span>
+            </span>
+            <span class="index-media"><img src="images/cleanings/3.jpg" alt="Renovation work on a property" data-fb="After-builders cleaning" loading="lazy"></span>
+            <span class="index-arrow"><svg class="ic"><use href="#i-arrow"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="index-row reveal" style="--d:.12s" href="services.html#deep-cleaning">
+            <span class="index-num">03</span>
+            <span class="index-body">
+              <span class="index-title">Deep Cleaning</span>
+              <span class="index-desc">A top-to-bottom refresh that tackles built-up grime and the details others miss.</span>
+            </span>
+            <span class="index-media"><img src="images/cleanings/4.jpg" alt="Deep cleaning a bathroom" data-fb="Deep cleaning" loading="lazy"></span>
+            <span class="index-arrow"><svg class="ic"><use href="#i-arrow"/></svg></span>
+          </a>
+        </li>
+        <li>
+          <a class="index-row reveal" style="--d:.18s" href="services.html#airbnb">
+            <span class="index-num">04</span>
+            <span class="index-body">
+              <span class="index-title">Airbnb &amp; Holiday Lets</span>
+              <span class="index-desc">Fast, reliable guest turnovers — fresh linen, spotless bathrooms and a final walkthrough before every check-in.</span>
+            </span>
+            <span class="index-media"><img src="images/cleanings/5.jpg" alt="Fresh bed linen for a holiday let" data-fb="Airbnb cleaning" loading="lazy"></span>
+            <span class="index-arrow"><svg class="ic"><use href="#i-arrow"/></svg></span>
+          </a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container feature-grid">
+      <div class="photo-stack reveal">
+        <img class="ps-main" src="images/cleanings/27.jpg" alt="A B&amp;M cleaner at work in a family kitchen" data-fb="The B&amp;M team at work" loading="lazy">
+        <img class="ps-sub" src="images/cleanings/7.jpg" alt="A freshly cleaned living room" data-fb="Fresh spaces" loading="lazy">
+        <svg class="spin-badge" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="49" fill="#fff"/>
+          <defs><path id="badge-circ" d="M50 50 m -37 0 a 37 37 0 1 1 74 0 a 37 37 0 1 1 -74 0"/></defs>
+          <text font-size="7" letter-spacing="1.1" fill="#013073" font-weight="600" font-family="Instrument Sans, sans-serif"><textPath href="#badge-circ" textLength="232">WHERE CLEAN MEETS PERFECTION · B&amp;M CLEANING ·</textPath></text>
+          <path d="M50 38c1.1 5.6 4.2 8.7 9.8 9.8-5.6 1.1-8.7 4.2-9.8 9.8-1.1-5.6-4.2-8.7-9.8-9.8 5.6-1.1 8.7-4.2 9.8-9.8Z" fill="#0599aa"/>
+        </svg>
+      </div>
+      <div class="at-copy reveal" style="--d:.1s">
+          <p class="eyebrow"><svg class="ic"><use href="#i-sparkle"/></svg>About B&amp;M</p>
+          <h2>A local team with <em>big</em> standards.</h2>
+          <p class="sub">At B&amp;M Cleaning Services, we believe a clean, well-kept space makes a real difference. Based in Maidenhead, we take the time to understand what every home and business needs — then deliver it with care, reliability and an eye for the details others miss.</p>
+          <blockquote class="pull-quote">
+            “Where clean meets perfection.”
+            <cite>The B&amp;M promise</cite>
+          </blockquote>
+          <a class="head-link" href="about.html">More about us<svg class="ic"><use href="#i-arrow"/></svg></a>
+        </div>
+    </div>
+  </section>
+
+  <section class="section principles">
+    <div class="container principles-grid">
+      <div class="reveal">
+        <p class="eyebrow"><svg class="ic"><use href="#i-sparkle"/></svg>Why choose us</p>
+        <h2>The B&amp;M <em>standard</em>.</h2>
+        <p class="sub">What every visit includes — whether it’s a weekly spruce-up, a full deep clean or a guest turnover.</p>
+        <a class="btn btn-ghost" href="about.html">Our commitments</a>
+      </div>
+      <ul class="pr-list">
+        <li class="pr-item reveal">
+          <span class="pr-ic"><svg class="ic"><use href="#i-sparkle"/></svg></span>
+          <div><h3>Reliable &amp; professional</h3><p>We turn up when we say we will — prepared, punctual and ready to get stuck in.</p></div>
+        </li>
+        <li class="pr-item reveal" style="--d:.08s">
+          <span class="pr-ic"><svg class="ic"><use href="#i-sparkle"/></svg></span>
+          <div><h3>Detail-obsessed</h3><p>From skirting boards to light switches, we catch what everyday cleans often overlook.</p></div>
+        </li>
+        <li class="pr-item reveal" style="--d:.16s">
+          <span class="pr-ic"><svg class="ic"><use href="#i-sparkle"/></svg></span>
+          <div><h3>Care &amp; respect</h3><p>Your home is treated like our own — carefully, considerately, every single visit.</p></div>
+        </li>
+        <li class="pr-item reveal" style="--d:.24s">
+          <span class="pr-ic"><svg class="ic"><use href="#i-sparkle"/></svg></span>
+          <div><h3>Friendly &amp; trustworthy</h3><p>A warm, honest service you can rely on week after week — that’s the reputation we’re building.</p></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- New Reviews Section Added Here -->
+  <section class="section reviews-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow"><svg class="ic"><use href="#i-sparkle"/></svg>Client Reviews</p>
+        <h2>What our <em>clients</em> say.</h2>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card reveal">
+          <div class="stars">
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+          </div>
+          <p class="review-cat">Airbnb &amp; Holiday-Let Cleaning</p>
+          <blockquote class="review-text">“A reliable and professional cleaning service for our holiday let. The property was left spotless and guest-ready, with great attention to detail. It is reassuring to know we can count on a team that takes cleanliness and presentation seriously.”</blockquote>
+          <p class="review-author">TIM</p>
+        </article>
+        
+        <article class="review-card reveal" style="--d:.08s">
+          <div class="stars">
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+          </div>
+          <p class="review-cat">End-of-Tenancy Cleaning</p>
+          <blockquote class="review-text">“A brilliant end-of-tenancy cleaning service. The property was left clean, tidy and ready for the next occupants. Communication was clear, and the team was thorough and professional throughout. Highly recommended!”</blockquote>
+          <p class="review-author">A. JENKINS</p>
+        </article>
+        
+        <article class="review-card reveal" style="--d:.16s">
+          <div class="stars">
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+            <svg class="ic"><use href="#i-star"/></svg>
+          </div>
+          <p class="review-cat">Home Cleaning</p>
+          <blockquote class="review-text">“Excellent cleaning service! The team was professional, friendly and paid great attention to detail. My home was left spotless, fresh and beautifully clean. I would definitely recommend their services to anyone looking for a reliable cleaning company.”</blockquote>
+          <p class="review-author">BHATIA</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow"><svg class="ic"><use href="#i-pin"/></svg>Where we work</p>
+        <h2>Proudly serving <em>Maidenhead</em> &amp; beyond.</h2>
+      </div>
+      <div class="area-chips reveal" style="--d:.08s">
+        <span class="chip chip--base"><svg class="ic"><use href="#i-sparkle"/></svg>Maidenhead</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>Windsor</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>Slough</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>Beaconsfield</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>Marlow</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>Bracknell</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>High Wycombe</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>Hurley</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>Henley</span>
+        <span class="chip"><svg class="ic"><use href="#i-sparkle"/></svg>Virginia Water</span>
+        <span class="chip chip--note">+ surrounding locations</span>
+      </div>
+      <p class="areas-note reveal" style="--d:.14s">Coverage subject to availability — not sure if we reach you? <a href="contact.html">Just ask</a>.</p>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <svg class="cta-deco" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1C13.2 7.2 16.8 10.8 23 12 16.8 13.2 13.2 16.8 12 23 10.8 16.8 7.2 13.2 1 12 7.2 10.8 10.8 7.2 12 1Z"/></svg>
+    <div class="container cta-inner">
+      <p class="cta-kicker">Free, no-obligation quotes</p>
+      <h2 class="reveal">Ready for a fresher, <em>cleaner</em> space?</h2>
+      <div class="cta-actions reveal" style="--d:.08s">
+        <a class="btn btn-navy btn-lg" href="contact.html">Get my free quote<svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a class="cta-phone" href="tel:+447563630183"><span class="cta-phone-ic"><svg class="ic"><use href="#i-phone"/></svg></span>07563630183</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="images/logo.png" alt="B&amp;M Cleaning Solutions logo" width="84" height="84">
+          <span class="brand-lockup">
+            <span class="brand-name">B&amp;M Cleaning</span>
+            <span class="brand-sub">Solutions</span>
+          </span>
+        </a>
+        <p class="footer-tag">“Where clean meets perfection.”</p>
+        <p>Professional, reliable cleaning for homes, Airbnb properties and businesses — delivered with care, an eye for detail and a friendly face.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#home-cleaning">Home Cleaning</a></li>
+          <li><a href="services.html#after-builders">After-Builders Cleaning</a></li>
+          <li><a href="services.html#deep-cleaning">Deep Cleaning</a></li>
+          <li><a href="services.html#airbnb">Airbnb &amp; Holiday Lets</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <ul class="footer-contact">
+          <li><svg class="ic"><use href="#i-phone"/></svg><a href="tel:+447563630183">07563630183</a></li>
+          <li><svg class="ic"><use href="#i-mail"/></svg><a href="mailto:hello@bm-cleaning.co.uk">hello@bm-cleaning.co.uk</a></li>
+          <li><svg class="ic"><use href="#i-pin"/></svg><span>Suite 1035, York House, 18 York Road, Maidenhead, SL6 1SF, United Kingdom</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> B&amp;M Cleaning Solutions. All rights reserved.</span>
+      <span class="fb-right"><svg class="ic"><use href="#i-sparkle"/></svg>Maidenhead, Berkshire</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-cta">
+  <a class="mc-btn mc-call" href="tel:+447563630183"><svg class="ic"><use href="#i-phone"/></svg>Call us</a>
+  <a class="mc-btn mc-quote" href="contact.html"><svg class="ic"><use href="#i-sparkle"/></svg>Get a free quote</a>
+</div>
+
+<script>
+const header=document.querySelector('.site-header'),
+      toggle=document.querySelector('.nav-toggle'),
+      nav=document.getElementById('siteNav');
+const setOpen=v=>{document.body.classList.toggle('nav-open',v);
+  toggle.setAttribute('aria-expanded',v);nav.classList.toggle('open',v);
+  document.body.style.overflow=v?'hidden':''};
+toggle.addEventListener('click',()=>setOpen(!document.body.classList.contains('nav-open')));
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setOpen(false)));
+addEventListener('keydown',e=>e.key==='Escape'&&setOpen(false));
+addEventListener('scroll',()=>header.classList.toggle('scrolled',scrollY>8),{passive:true});
+header.classList.toggle('scrolled',scrollY>8);
+
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}
+}),{threshold:.1,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+document.querySelectorAll('img[data-fb]').forEach(img=>img.addEventListener('error',()=>{
+  img.src='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700"><rect width="900" height="700" fill="#013073"/><path d="M450 235c9 56 46 93 102 102-56 9-93 46-102 102-9-56-46-93-102-102 56-9 93-46 102-102Z" fill="#a2daff"/><text x="450" y="445" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#a2daff">'+(img.dataset.fb||'B&M Cleaning')+'</text></svg>');
+},{once:true}));
+
+document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
+
+(function(){
+  const win=document.getElementById('wipeWindow');
+  const fog=document.getElementById('fogLayer');
+  const sq=document.getElementById('squeegee');
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let p=0,raf=null;
+  const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+  function render(){
+    fog.style.clipPath='inset(0 0 0 '+(p*100).toFixed(2)+'%)';
+    sq.style.left=(p*100).toFixed(2)+'%';
+    win.dataset.wiped=p>.92?'1':'0';
+  }
+  function animateTo(target,dur){
+    cancelAnimationFrame(raf);
+    if(reduced){p=target;render();return}
+    const from=p,t0=performance.now();
+    const step=now=>{
+      const k=Math.min(1,(now-t0)/dur);
+      p=from+(target-from)*ease(k);render();
+      if(k<1)raf=requestAnimationFrame(step);
+    };
+    raf=requestAnimationFrame(step);
+  }
+  render();
+  if(reduced){p=1;render()}
+  else{
+    const wio=new IntersectionObserver(es=>{
+      if(es[0].isIntersecting){wio.disconnect();setTimeout(()=>animateTo(1,1600),500)}
+    },{threshold:.45});
+    wio.observe(win);
+  }
+  let dragging=false;
+  const setFromX=x=>{const r=win.getBoundingClientRect();
+    p=Math.min(1,Math.max(0,(x-r.left)/r.width));render()};
+  win.addEventListener('pointerdown',e=>{
+    if(e.target.closest('button'))return;
+    dragging=true;cancelAnimationFrame(raf);
+    try{win.setPointerCapture(e.pointerId)}catch(_){}
+    setFromX(e.clientX);
+  });
+  win.addEventListener('pointermove',e=>{if(dragging)setFromX(e.clientX)});
+  const end=()=>{if(!dragging)return;dragging=false;animateTo(p>.5?1:0,450)};
+  win.addEventListener('pointerup',end);
+  win.addEventListener('pointercancel',end);
+  document.getElementById('wipeAgain').addEventListener('click',()=>{
+    animateTo(0,320);setTimeout(()=>animateTo(1,1500),460);
+  });
+})();
+</script>
+</body>
+</html>" and this is the services page
